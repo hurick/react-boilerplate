@@ -4,6 +4,8 @@
     "project": "./tsconfig.json"
   },
   "rules": {
-    "@typescript-eslint/space-before-function-paren": "never"
+    "@typescript-eslint/space-before-function-paren": "off",
+    "@typescript-eslint/triple-slash-reference": "off",
+    "@typescript-eslint/strict-boolean-expressions": "off"
   }
 }
