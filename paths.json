@@ -2,13 +2,14 @@
   "compilerOptions": {
     "baseUrl": "./src",
     "paths": {
-      "@assets/*": ["components/*"],
-      "@components/*": ["components/*"],
-      "@pages/*": ["pages/*"],
-      "@services/*": ["services/*"],
-      "@shared/*": ["shared/*"],
-      "@definitions/*": ["shared/definitions/*"],
-      "@helpers/*": ["shared/helpers/*"]
+      "@assets/*": [ "assets/*" ],
+      "@components/*": [ "components/*" ],
+      "@pages/*": [ "pages/*" ],
+      "@router/*": [ "router/*" ],
+      "@services/*": [ "services/*" ],
+      "@shared/*": [ "shared/*" ],
+      "@definitions/*": [ "shared/definitions/*" ],
+      "@helpers/*": [ "shared/helpers/*" ]
     }
   }
 }
