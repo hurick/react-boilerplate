@@ -1,6 +1,13 @@
 {
-  "extends": "./paths.json",
+  "include": [
+    "src"
+  ],
+  "exclude": [
+    "node_modules",
+    "build"
+  ],
   "compilerOptions": {
+    "baseUrl": "./src",
     "target": "es5",
     "lib": [
       "dom",
@@ -21,14 +28,6 @@
     "noEmit": true,
     "jsx": "react-jsx",
     "sourceMap": false,
-    "rootDir": "src",
-    "baseUrl": "src"
-  },
-  "include": [
-    "src"
-  ],
-  "exclude": [
-    "node_modules",
-    "build"
-  ]
+    "rootDir": "src"
+  }
 }
