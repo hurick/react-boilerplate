@@ -1,6 +1,6 @@
 {
   "name": "frontend-boilerplate",
-  "version": "0.0.3",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
     "react": "17.0.2",
